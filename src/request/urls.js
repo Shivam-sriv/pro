@@ -1,0 +1,57 @@
+
+export const baseUrl = "https://uat.bfccapital.com/prodigypro/api";
+
+// export const baseUrl = "http://192.168.1.2:8080/api/";
+
+
+
+
+export const apis = {
+  post_registerUserOTP: "/register/user-register-otpEmail",
+  post_verifyOtp: "/register/verify-otp",
+  post_userRegisterViaEmail: "/register/user-register-via-email",
+  post_resetPassword: "/user/reset-password",
+  post_sendResetOtp: "/user/send-reset-otp",
+  post_verifyResetOtp: "/user/verify-reset-otp",
+  post_loginWithEmail: "/user/login-via-email",
+  post_registerUserViaSocialId: "/register/user-register-via-socialid",
+  post_loginViaGoogle: "/user/login-via-socialID",
+  post_sendMobileLoginOtp: "/user/send-mobile-login-otp",
+  post_verfiyMobileLoginOtp: "/user/verify-login-otp",
+  get_userStatus: "/user/user-status",
+  post_checkPanStatus: "/register/check-update-pan",
+  post_registerPan: "/register/user-register-pan",
+  post_createProfile: "/register/iin/create-profile",
+  post_pincode: "/register/iin/get-details-by-PIN",
+  get_incomerange: "/register/iin/get-income-range",
+  get_relation: "/register/iin/get-family-relations",
+  get_occupation: "/register/iin/get-occupation-nse",
+  post_addNomini: "/register/iin/add-nominee-details",
+  post_getIfscDetails: "/register/iin/get-bankdetails-ifsc",
+  post_addBankDetails: "/register/iin/add-bank-details",
+  post_createPrifileJointHolder: "/register/iin/joint-holder",
+  post_getNominees: "/register/iin/get-nominee",
+  post_deleteNominees: "/register/iin/delete-nominee",
+  post_updateNominees: "/register/iin/update-nominee",
+  post_create_iin_nse: "/register/iin/create-iin-nse",
+  post_reportsSipStpSwp: "/reports/sip-stp-swp-report",
+  post_getReportTransaction: "/reports/get-transactions",
+  post_getTaxSavingReport: "/reports/get-tax-saving-report",
+  post_getDevidendReport: "/reports/get-dividend-report",
+  get_amcList: "/transact/get-amc",
+  post_iinCreateFatca: "/register/iin/create-fatca",
+  post_getIIn: "/register/iin/get-user-iin",
+  post_getScheme: "/transact/get-scheme",
+  post_getFolioByAmc: "/transact/get-folio-byAMC",
+  get_bankList: "/register/iin/get-banklist",
+  post_uploadBankBirthProof: "/register/iin/upload-bank-birth-proof",
+  post_familySnapshot: "/portfolio/get-family-snapshot",
+  post_familyWisePortfolio: "/portfolio/get-familywise-portfolio",
+  post_detailedPortfolio: "/portfolio/get-detailed-portfolio",
+  post_transactionDetail: "/portfolio/get-portfolio-transaction-detail",
+  post_personalDetail: "/portfolio/get-postfolio-personal-detail",
+  post_userProfile: "/user/get-user-profile",
+  post_userProfileIIN: "/user/get-user-profile-iins",
+  post_getNSEProductCode: "/transact/get-nse-products",
+  post_newPurchase: "/transact/single-purchase",
+};

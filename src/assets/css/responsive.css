@@ -1,0 +1,314 @@
+/* ==========mobile and tab========== */
+@media only screen and (min-width: 300px) and (max-width:1024px) {
+
+  .home-page .quick-invest {
+    margin-left: 0px; 
+  }
+  .home-page canvas {
+    width: 66% !important;
+  }
+  .d-smc-none
+  {
+    display: none;
+  }
+  .mt-smc-2 {
+    margin-top: 2rem;
+}
+.px-smc-1
+{ 
+    padding-right: 1rem!important;
+    padding-left: 1rem!important;
+
+}
+.navbar-nav .dropdown-menu {
+  position: absolute;
+}
+.dropdown-menu.show{
+  left: -9em;
+  }
+  .notify .dropdown-menu.show {
+    left: -15.7em;
+  }
+  .schemew {
+    min-width: 26em;
+  }
+}
+
+
+
+
+
+
+
+@media only screen and (min-width: 300px) and (max-width: 600px) {
+  .login-box {
+    left: 0 !important;
+    margin: 10px !important;
+    top: 50% !important;
+    transform: translate(0%, -50%) !important;
+  }
+  .react-tabs__tab {   
+    padding: 9px 0% !important;
+    width: 50%;
+    text-align: center;
+  }
+
+.form-label {  
+  padding-top: 7px;
+}
+
+.home-page .goal-card h4 {
+  font-size: 13px;
+  width: 100%;
+}
+ .filter-all-mf .react-tabs__tab {   
+  padding: 9px 14px !important;
+  font-size: 10px !important;
+  width: 25%;
+ } 
+
+.goal-link .new-icon {
+  max-width: 107px !important;
+}
+.home-page .col-lg-1 {
+  margin: auto 0px !important;
+}
+
+
+
+.quick-link span {
+  font-size: 11px;
+}
+
+.px-smc-0
+{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.navbar {
+  padding: 0px 0rem !important;
+}
+.user-icon img {
+  width: 40px;  
+}
+.header-icon {
+  font-size: 20px;
+}
+.min-w-13
+{
+  min-width: 13em;
+}
+.table>:not(caption)>*>* {
+  font-size: 10px;
+  padding: 0px;
+}
+.table.custom td, .table.custom th {
+  font-size: 10px;
+}
+
+  .login-box1 {
+    margin: 5px !important;
+    transform: translate(-52%, 25%) !important;
+    position: relative !important;
+  }
+  .fs-sm-14 {
+    font-size: 14px !important;
+  }
+  .fs-sm-12 {
+    font-size: 12px !important;
+  }
+  .fs-sm-13 {
+    font-size: 13px !important;
+  }
+  .fs-sm-15 {
+    font-size: 15px !important;
+  }
+  .result-content-shadow{
+    padding: 34px 34px;
+  }
+  .future canvas {
+    width: 222px !important;
+    height: 222px !important;
+    margin-bottom: 30px;
+}
+.mw-220{
+  max-width: 220px;
+}
+.wd-20rem{
+min-width: 20rem;
+}
+.wd-7rem{
+  min-width: 7rem;
+}
+.wd-5rem{
+  min-width: 5rem;
+}
+.wd-8rem{
+  min-width: 8rem;
+}
+.wd-1rem{
+  min-width: 1rem;
+}
+.wd-11rem{
+  min-width: 11rem;
+}
+.wd-12rem{
+  min-width: 12rem;
+}
+.wd-15rem{
+  min-width: 15rem;
+}
+.wd-13rem{
+  min-width: 13rem;
+}
+.wd-6rem{
+  min-width: 6rem;
+}
+.wd-23rem {
+  min-width: 23rem;
+}
+.wd-sm-28{
+  min-width: 28rem;
+}
+.wd-150{
+  max-width: 150px;
+}
+.mw-sm-5{
+  max-width: 5em !important;
+}
+.pr-4rem{
+padding-right: 5.3rem;
+}
+.ps-smc-0{
+padding-left: 0 !important;
+}
+.shadowcart a {
+  font-size: 12px;
+}
+.fs-sm-10{
+  font-size: 10px;
+}
+.fs-sm-11{
+  font-size: 11px;
+}
+.get-scheme .react-tabs__tab {
+  width: 50%;
+  font-size: 12px !important;
+}
+.speedometer{
+  margin-left: -24px;
+}
+.btn-custom{
+   padding: 10px 40px !important;
+}
+.otp-inp{
+  /* justify-content: end; */
+}
+.port-chart{
+  width: auto !important;
+  height: 180px !important;
+  font-size: 11px !important;
+}
+.nfo-accordion .accordion-button{
+font-size: 14px;
+}
+.border-right{
+  border-right: none !important;
+}
+}
+
+@media only screen and (min-width: 1420px) and (max-width: 2500px) {
+  .home-page canvas {
+    width: 55% !important;
+    height: 79% !important;
+    display: inline-block !important;
+  }
+  .react-tabs__tab {
+    padding: 9px 21% !important;
+  }
+  .get-scheme .react-tabs__tab {
+   text-align: center;
+  }
+}
+@media only screen and (min-width: 1100px) and (max-width: 1340px) {
+  .btn-custom {
+    padding: 10px 33px !important;
+  }
+  .get-scheme .react-tabs__tab {
+    padding: 9px 52px !important;
+  }
+    .react-tabs__tab {    
+      padding: 9px 19.8% !important;
+    }
+        .nfo-live-s .react-tabs__tab {
+          padding: 9px 20.2% !important;
+        }
+}
+/* ========iphone========= */
+@media only screen and (min-width: 350px) and (max-height:700px) {
+
+  .tablist .react-tabs__tab {
+    /* padding: 9px 38px !important; */
+    width: 50%;
+    font-size: 12px;
+}
+.fs-sm-14 {
+  font-size: 14px !important;
+}
+.fs-sm-15 {
+  font-size: 15px !important;
+}
+.result-content-shadow{
+  padding: 34px 34px;
+}
+.future canvas {
+  width: 222px !important;
+  height: 222px !important;
+  margin-bottom: 30px;
+}
+.mw-220{
+max-width: 220px;
+}
+.wd-20rem{
+min-width: 20rem;
+}
+.wd-7rem{
+min-width: 7rem;
+}
+.wd-5rem{
+min-width: 5rem;
+}
+.pr-4rem{
+  padding-right: 2.9rem;
+}
+.ps-smc-0{
+padding-left: 0 !important;
+}
+.shadowcart a {
+font-size: 12px;
+}
+.fs-sm-10{
+font-size: 10px;
+}
+.get-scheme .react-tabs__tab {
+    width: 50%;
+    font-size: 11px !important;
+}
+.speedometer{
+margin-left: -24px;
+}
+
+}
+/* ========tab========= */
+@media only screen and (min-width: 600px) and (max-width:800px) {
+
+  .home-page .col-md-2 {
+    margin: auto 11px !important;
+}
+.filter-all-mf .react-tabs__tab { 
+  padding: 9px 50px !important;
+}
+.tablist .react-tabs__tab {
+  padding: 9px 33px !important;
+}
+}
